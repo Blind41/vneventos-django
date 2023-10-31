@@ -1,0 +1,255 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='{% static "styles.css" %}'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>VN Eventos</title>
+    <link rel="shortcut icon" href='{% static "galeria/vneventos-icon.png" %}'>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">
+            <img src='{% static "galeria/vneventos-icon.png" %}'>
+            VN Eventos</a>
+        <div class="bx bx-menu" id="box-menu" for="menu-checkbox"></div>
+        
+        <nav class="navbar" id="navbar">
+            
+            <a href="#" class="active">Inicio</a>
+            <a href="#About">Nosotros</a>
+            <a href="#Services">Servicios</a>
+            <a href="#Portfolio">Galería</a>
+            <a href="#Contact">Contacto</a>            
+        </nav>
+    </header>
+
+    <main>
+        <section id="Banner">
+            <img src='{% static "galeria/vneventos-logo.png" %}'>
+        </section>
+        <section id="About">
+            <h1>¡Hola, somos VN Eventos!</h1>
+
+            <h2>Somos un equipo enfocado en la organización de eventos.
+                Contamos con un equipo dinámico y experimentado.</h2>
+    
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nulla deleniti tempore 
+                sunt laborum sed blanditiis quis nam dolore, amet voluptates officia possimus nihil, 
+                aliquid inventore quisquam. Ab, similique necessitatibus?</h3>
+
+                    <div id="about-bottom">
+                    </div>
+
+        </section>
+
+        <section id="Services">
+            <header id="titulo">
+                <h1>Servicios</h1>
+                <h1>______</h1>
+            </header>
+
+            <section id="services-container">
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/20.jpeg" %}'>
+                        <div id="title">Sonido<p>_____</p></div>
+                    </header>
+                    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+        
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/1.jpeg" %}'>
+                        <div id="title">Iluminación<p>_____</p></div>
+                    </header>
+                        <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+        
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/3.jpeg" %}'>
+                        <div id="title">Ambientación<p>_____</p></div>
+                    </header>  
+                    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+        
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/16.jpeg" %}'>
+                        <div id="title">Escenario<p>_____</p></div>
+                    </header>
+                    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+        
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/15.jpeg" %}'>
+                        <div id="title">Proyecciones<p>_____</p></div>
+                    </header>
+                    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+        
+                <article id="service">
+                    <header id="service-header">
+                        <img src='{% static "galeria/DSC00294.jpg" %}'>
+                        <div id="title">DJ's<p>_____</p></div>
+                    </header>
+                    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi
+                        aliquam accusantium voluptate modi, itaque eius totam rem maiores debitis quisquam 
+                        est expedita corrupti, nisi rerum iusto magni amet corporis?</p>
+                </article>
+
+                <div id="services-bottom">
+                </div>
+
+            </section>
+        </section>
+
+        <section id="Portfolio">
+            <header id="titulo">
+                <h1>Galería</h1>
+                <h1>______</h1>
+            </header>
+
+            <article id="portfolio-container">
+
+                <div id="portfolio-bottom"></div>
+
+                <section id="gallery-container">
+                    <div id="grid-column-1">
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/DSC00245.jpg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src="{% static 'galeria/DSC00291.jpg' %}" alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/9.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/1.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/5.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/4.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                    </div>
+
+                    <div id="grid-column-2">
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/11.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/3.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/2.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/18.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                    </div>
+
+                    <div id="grid-column-3">
+                        
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/6.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/7.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src="{% static 'galeria/8.jpeg' %}" alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/20.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/23.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/19.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                        <div id="gallery-item">
+                            <img src='{% static "galeria/15.jpeg" %}' alt="" id="gallery-img">
+                        </div>
+                    </div>
+
+                </section>
+                
+            </article>
+        </section>
+        
+        <section id="Contact">
+            <header id="titulo">
+                <h1>Contacto</h1>
+                <h1>______</h1>
+            </header>
+
+            <article id="contact-content">
+
+                <h2>Envianos un mensaje</h2>
+
+                <form id="formulario" method="post" action="{% url 'send_mail' %}">
+
+                    {% csrf_token %}
+
+                    <div id="contact-name" class="contact-box-input">
+                        <input type="text" required name="Nombre" id="nombre"></input>
+                        <span>Nombre</span>
+                    </div>
+
+                    <div id="contact-email" class="contact-box-input">
+                        <input type="text" required name="E-mail" id="email"></input>
+                        <span>E-mail</span>
+                    </div>
+
+                    <div id="contact-phone" class="contact-box-input">
+                        <input type="text" required name="Telefono" id="telefono"></input>
+                        <span>Teléfono</span>
+                    </div>
+                    <div id="contact-msg" class="contact-box-input">
+                        <textarea cols="20" rows="5" required name="Mensaje" id="mensaje"></textarea>
+                        <span>Mensaje</span>
+                    </div>
+
+                    <button type="submit" id="enviar">Enviar</button>
+
+                </form>
+            </article>
+
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div id="footer-content">
+            <a href="https://wa.link/mbj849" target="_blank"><i class='bx bxl-whatsapp bx-sm' ></i>Whatsapp</a>
+            <a href="https://www.instagram.com/vn.eventoss/" target="_blank"><i class='bx bxl-instagram bx-sm'></i>Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src='{% static "script.js" %}'></script>
+
+</body>
+
+</html>
